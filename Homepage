@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My 3D Print Shop</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        .hero {
+            padding: 2rem;
+            text-align: center;
+            background: #e2e2e2;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            padding: 2rem;
+        }
+        .product {
+            background: #fff;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+        .contact {
+            background: #333;
+            color: #fff;
+            padding: 2rem;
+            text-align: center;
+        }
+        footer {
+            background: #111;
+            color: #ccc;
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My 3D Print Shop</h1>
+    <nav>
+        <a href="#products">Shop</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>High-Quality 3D Prints, Made with Passion</h2>
+    <p>Browse unique models, miniatures, and custom orders.</p>
+</section>
+
+<section id="products" class="products">
+    <div class="product">
+        <img src="https://via.placeholder.com/250" alt="Product 1">
+        <h3>Product Name 1</h3>
+        <p>$29.99</p>
+    </div>
+    <div class="product">
+        <img src="https://via.placeholder.com/250" alt="Product 2">
+        <h3>Product Name 2</h3>
+        <p>$39.99</p>
+    </div>
+    <div class="product">
+        <img src="https://via.placeholder.com/250" alt="Product 3">
+        <h3>Product Name 3</h3>
+        <p>$24.99</p>
+    </div>
+    <!-- Add more products as needed -->
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:yourname@example.com" style="color: #4fc3f7;">yourname@example.com</a></p>
+</section>
+
+<footer>
+    &copy; 2025 My 3D Print Shop | All rights reserved.
+</footer>
+
+</body>
+</html>
